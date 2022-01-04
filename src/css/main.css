@@ -85,7 +85,7 @@ body {
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
   background-color: white;
-  margin: 0 auto;
+  margin: 0 5%;
 }
 
 .features__item {

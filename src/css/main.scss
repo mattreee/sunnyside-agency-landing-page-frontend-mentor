@@ -103,8 +103,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   background-color: white;
-  
-  margin: 0 auto;
+  margin: 0 5%;
 
   &__item {
     display: flex;
