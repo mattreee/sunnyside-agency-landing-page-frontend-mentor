@@ -1,6 +1,3 @@
-import Egg from '../images/desktop/image-transform.jpg';
-import Cup from '../images/desktop/image-stand-out.jpg';
-
 const Features = () => {
   return (
     <div className="features">
@@ -15,11 +12,11 @@ const Features = () => {
       </div>
 
       <div className="features__item features-image egg-image">
-        <img src={Egg} alt="" />
+        {/* <img src={Egg} alt="" /> */}
       </div>
 
-      <div className="features__item features-image">
-        <img src={Cup} alt="" />
+      <div className="features__item features-image cup-image">
+        {/* <img src={Cup} alt="" /> */}
       </div>
     
       <div className="features__item">

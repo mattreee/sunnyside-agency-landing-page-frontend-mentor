@@ -38,7 +38,6 @@ $font-size: 18px;
 body {
   font-family: $ff-barlow;
   font-size: $font-size;
-  margin: 0 auto;
   min-width: 375px;
 }
 
@@ -103,11 +102,22 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   background-color: white;
-  margin: 0 5%;
 
   &__item {
     display: flex;
     align-items: center;
+  }
+
+  &-image.egg-image {
+    background-image: url('../images/desktop/image-transform.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  &-image.cup-image {
+    background-image: url('../images/desktop/image-stand-out.jpg');
+    background-position: center;
+    background-size: cover;
   }
 
   &__content {
@@ -391,6 +401,14 @@ body {
 
     .egg-text {
       grid-area: egg-text;
+    }
+
+    &-image.egg-image {
+      background-image: url('../images/mobile/image-transform.jpg');
+    }
+  
+    &-image.cup-image {
+      background-image: url('../images/mobile/image-stand-out.jpg');
     }
 
     &__content {

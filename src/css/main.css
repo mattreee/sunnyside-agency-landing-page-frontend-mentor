@@ -9,7 +9,6 @@
 body {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
-  margin: 0 auto;
   min-width: 375px;
 }
 
@@ -85,7 +84,6 @@ body {
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
   background-color: white;
-  margin: 0 5%;
 }
 
 .features__item {
@@ -95,6 +93,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.features-image.egg-image {
+  background-image: url("../images/desktop/image-transform.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.features-image.cup-image {
+  background-image: url("../images/desktop/image-stand-out.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .features__content {
@@ -421,6 +431,12 @@ body {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: egg-text;
+  }
+  .features-image.egg-image {
+    background-image: url("../images/mobile/image-transform.jpg");
+  }
+  .features-image.cup-image {
+    background-image: url("../images/mobile/image-stand-out.jpg");
   }
   .features__content {
     padding: 0;
